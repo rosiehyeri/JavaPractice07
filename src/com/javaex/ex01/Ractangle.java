@@ -14,7 +14,7 @@ public class Ractangle extends Shape{
 	public void draw(){
 		System.out.println("[사각형]#면색:" +super.fillColor+ " "
 				+ " #가로:" + width 
-				+" #세로:" + height + "그렸습니다.");                                                                        
+				+" #세로:" + height + " 그렸습니다.");                                                                        
 	}
 	
 	//아래 코드는 다 새로 추가했음

@@ -14,7 +14,7 @@ public class ShapeApp {
 		
 		// Shape 클래스의 추상 메서드인 draw()는 하위 클래스에서 오버라이드 되어야 합니다.
         // sr1 객체의 draw() 메서드를 호출하여 해당 도형을 그립니다.
-		Shape sr1 = new Ractangle("빨강", 4, 4);
+		Shape sr1 = new Ractangle("빨강", 12, 10);
 		
 		
 		//아래 코드는 새로 추가한 것
@@ -22,10 +22,9 @@ public class ShapeApp {
 		sr1.draw();
 		
 		//sr1의 가로크기 출력
-		if (sr1 instanceof Ractangle) {
-			int width = ((Ractangle) sr1).getWidth();
-			System.out.println("가로 크기: " + width);
-		}
+		int width = ((Ractangle) sr1).getWidth();
+		System.out.println("sr1의 가로는: " + width + "입니다.");
+		
 	}
 }
 
